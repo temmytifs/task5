@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background-color: #bfbef3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image:url(images/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container h1{
+    text-align: center;
+    font-style: italic bold;
+}
+
+.container{
+    width: 960px;
+    min-height: 800px;
+    background-color: #98c6ec;
+    
+}
+
+.container header{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.container header img{
+    width: 100%;
+    height: 150px;
+    margin: 0%; 
+
+}
+
+.container header{
+    text-align: center;
+    color: white;
+    background-color: royalblue;
+    height: 150px;
+    margin: 0%;
+    align-items: center;
+}
+
+.container .containerbody{
+    width: 100%;
+    min-height: 750px;
+    margin: 1px;
+    
+}
+
+.container .containerbody ul{
+    list-style: none;
+    text-align: center;
+}
+.container .containerbody form{
+    width: 100%;
+    min-height: 800px;
+    font-weight: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+.container .containerbody form input{
+    border-radius: 5px;
+    width: 100%;
+    margin: 20px 0;
+    box-sizing: border-box;
+    padding: 12px;
+
+}
+
+.container .containerbody .ename{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.container .containerbody .ename .name{
+    margin: 2px;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    color: rgb(36, 9, 9);
+}
+
+.container .containerbody .forms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container .containerbody textarea{
+    resize: none;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+
+.container .containerbody .forms2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .containerbody .forms label {
+    text-align: center;
+    display: block;
+    height: 50px;
+}
+.container .containerbody .forms select{
+    height: 100px;
+    margin-right: 0px 15px;
+    justify-content: center;
+
+}
+.container .containerbody .forms2 ul{
+    display: inline-flex;
+    line-height: 0.4;
+    height: 290px;
+    margin:15px 0;
+}
+.container .containerbody .relocate{
+    text-align: center;
+    line-height: 0.8px;
+}
+.container .containerbody .submit{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container .containerbody .submit input{
+    width: 300px;
+    box-sizing: border-box;
+
+}
+
+

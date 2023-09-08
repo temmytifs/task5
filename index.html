@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Application form</title>
+    
+</head>
+<body>
+    <section class="container">
+        <header>
+            <img src="images/nestle.jpg">
+            <h2>Nestle Job Application form GOOD FOOD GOOD LIFE</h2>
+        </header>
+    <section class="containerbody">
+        <h1>Please Fill Out The Form Below To Submit Your Job Application.</h1>
+        <form action="/form-processor.html" method="get">
+        <ul class="ename">
+            <li class="name">
+                <span class="required">*</span>
+                <label for="name">Name</label>
+        <input id="name" type="text" name="name"placeholder="Example:taiwo tife">
+            </li>
+            <li class="name">
+                <span class="required">*</span>
+                <label for="email">Email</label>
+        <input for="email" id="email" email="email" placeholder="username@gmail.com", required/>
+
+            </li class="name">
+            <li>
+                <label for="phone number">Phone Number</label>
+                <input for="tel" id="tel" tel="tel" placeholder="+23490987456">
+            </li>  
+            <div class="name">
+                <span class="required">*</span>
+                <label for="Resume upload">Resume</label>
+                <input type = file id="my resume" name="Resume Upload">
+            </div>
+        </ul>
+        <div class="forms">     
+        <label for="Preferred job-position">Preferred Job Position</label>
+        <select id="Preferred job-position" name="Preferred job position">
+            <option value="select">select</option>
+            <option value="factoryworker">Factory Worker</option>
+            <option value="Engineers">Engineer</option>
+            <option value="Quality assurance">Quality Assurance</option>
+            <option value="Accountant">Accountant</option>
+        </select>
+        <ul>
+            <li>
+                <label for="Education background">Educational background</label>
+                <textarea id="Educational" cols="40" rows="4" placeholder="your text here"></textarea>
+            </li>
+        </ul>
+        </div>
+
+        <div class="forms2">
+           <ul>
+            <li>
+                <label for="skills">Skills</label>
+                <input type="checkbox" id="skills" name="skills">
+                <label for="interpesonal skills">Interpesonal skills</label>
+
+                <input type="checkbox" id="skills" name="skills">
+                <label for="attention to details">attention to details</label>
+                <input type="checkbox" id="skills" name="skills">
+                <label for="creativity">creativity</label>
+                <input type="checkbox" id="skills" name="skills">
+                <label for="leadership">leadership</label>
+            </li>
+           </ul> 
+            <ul>
+            <li>
+                <lable for="year of experience">Year Of Experience</lable>
+                <input type="radio" id="year of experience" name="year of experience">
+                <label for="less than a year">less than a year</label>
+                <input type="radio" id="year of experience" name="year of experience">
+                <label for="2-15years">2-15years</label>
+                <input type="radio" id="year of experience" name="year of experience">
+                <label for="6-10years">6-10years</label>
+                <input type="radio" id="year of experience" name="year of experience">
+                <label for="10 years and above">10 years and above</label>   
+            </li> 
+           </ul> 
+        </div>
+        
+        <ul class="relocate">
+            <li> <label for="Are You Willing To Relocate?">Are You Willing To Relocate</label></li>
+            <input type="radio" id="Are you willing to relocate" name="are you willing to relocate">
+            <label for="yes">Yes</label>
+            <input type="radio" id="Are you willing to relocate" name="are you willing to relocate">
+            <label for="no">No</label>
+        </ul>
+        
+        <li class="submit">
+             <input type="submit" value="Submit">
+        </li>
+    </form>
+</section>
+</section>
+</body>
+</html>
